@@ -12,38 +12,20 @@ Each agentican access only to a private set containingmi∈NimagesDj∈Rd with
 associated labelyjcoming from a given dataset. The dataset is split in a training set
 {Dj,yj}mj=1trainand a test set{Dh,yh}mh=1test.
 Two possible datasets are available:
-
-```
-(a) handwritten digits (mnist);
-```
-```
-(b) Zalando’s article images (fashionmnist).
-```
+ (a) handwritten digits (mnist);
+ (b) Zalando’s article images (fashionmnist).
+    
 The assignment of datasets will depend on the group number. Odd groups will be assigned
 option (a), while even groups will be assigned option (b). For instance, Group 23 must use
 themnistdataset, and Group 12 must use thefashionmnistdataset.
 
 ### Task 1.1 – Distributed Optimization
 
-1. Implement theGradient Trackingalgorithm to solve a consensus optimization problem
+1. Implement the *Gradient Tracking algorithm* to solve a consensus optimization problem
     in the form
 
-```
-min
-u
-```
-#### ∑N
-
-```
-i=
-```
-```
-Ji(u)
-```
-```
-whereJiis a quadratic function.
-```
-2. Run a set of simulations to test the effectiveness of the implementation. Moreover,
+$$ \underset{u} \min \sum_{i=1}^N J_i(u)
+1. Run a set of simulations to test the effectiveness of the implementation. Moreover,
     provide a set of solutions that includes different weighted graph patterns (e.g., cycle,
     path, star) whose weights are determined by the Metropolis-Hastings method. Finally,
     for each simulation, plot the evolution of the cost function and of the norm of the
