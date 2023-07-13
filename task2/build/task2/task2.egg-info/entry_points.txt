@@ -1,0 +1,10 @@
+[console_scripts]
+goal_visualizer = task2.goal_visualizer:main
+obstacle_visualizer = task2.obstacle_visualizer:main
+the_agent_collision = task2.the_agent_collision:main
+the_agent_complete = task2.the_agent_complete:main
+the_agent_formation = task2.the_agent_formation:main
+the_agent_leader_follower = task2.the_agent_leader_follower:main
+the_agent_obstacle_avoidance = task2.the_agent_obstacle_avoidance:main
+visualizer = task2.visualizer:main
+

@@ -1,0 +1,4 @@
+MAXITERS = 1000
+NN = 5
+d = 3
+graph_type = Path
